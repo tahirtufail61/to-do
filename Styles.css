@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Liter", serif;
+}
+
+body {
+    background-color: black; /* Apply background only to body */
+}
+
+.header{
+    padding-top: 20px;
+    display: flex;
+    height: 40px;
+    justify-content: space-around;
+}
+
+.logoimg {
+    width: 100px;
+    height: 50px; 
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+    padding-top: 25px;
+    
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.todobtn{
+    background-color: yellow;
+    height: 40px; 
+    width: 150px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.loginbtn{
+    color: yellow;
+    background-color: transparent;
+    padding-top: 4px;
+    text-decoration: none;
+    padding-right: 10px;
+
+    
+}
+
+.herosection{
+    overflow: hidden;
+    display: flex;
+    height: 70vh;
+    width: 100vw;
+    margin-top: 50px;
+}
+
+.herotext{
+    width: 50%;
+    color: white;
+    padding: 50px;
+    padding-top: 50px;
+}
+
+.todobtn2{
+    background-color: yellow;
+    height: 40px; 
+    width: 100px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.herotexth {
+    font-size: 40px;
+    margin-bottom: 30px; 
+}
+
+.herotextp {
+    font-size: 16px;
+    margin-top: 30px; 
+    line-height: 1.6; 
+}
+
+.herotext div {
+    display: flex;
+    gap: 20px; 
+    margin-top: 20px; 
+}
+
+.heroleft{
+    overflow: hidden;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.heroleft1{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    height: 100%;
+    justify-content: space-between;
+}
+.herol1{
+    height: 70%;
+    background-color: gray;
+    border-radius: 20px;
+}
+.herol2{
+    height: 25%;
+    background-color: gray;
+    border-radius: 20px;
+
+}
+
+.heroleft2{
+    display: flex;
+    width: 48%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.herol4{
+    height: 70%;
+    background-color: gray;
+    border-radius: 20px;
+}
+.herol3{
+    height: 25%;
+    background-color: gray;
+    border-radius: 20px;
+
+}
+
+
+.section2{
+    height: 30vh;
+    justify-items: center;
+    color: white;
+    padding-top: 30px;
+    overflow: hidden;
+    
+}
+
+.sec2imgs {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 30px; 
+    flex-wrap: wrap; 
+    height: 100%;
+}
+
+.sec2imgs img {
+    max-height: 80px; 
+    width: 12vw; 
+    object-fit: contain; 
+}
+
+.section3{
+    width: 100vw;
+    height: 50vh;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
